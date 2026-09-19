@@ -1,0 +1,3312 @@
+[
+{
+"id": 1,
+"it": "soprano leggero",
+"zh": "花腔女高音（轻巧型女高音）"
+},
+{
+"id": 2,
+"it": "soprano lirico",
+"zh": "抒情女高音"
+},
+{
+"id": 3,
+"it": "soprano lirico-spinto",
+"zh": "抒情戏剧女高音（spinto 兼具抒情与戏剧张力）"
+},
+{
+"id": 4,
+"it": "soprano drammatico",
+"zh": "戏剧女高音"
+},
+{
+"id": 5,
+"it": "mezzo-soprano",
+"zh": "次女高音（女中音）"
+},
+{
+"id": 6,
+"it": "contralto",
+"zh": "女低音"
+},
+{
+"id": 7,
+"it": "tenore leggiero (tenorino)",
+"zh": "轻男高音（抒情轻巧男高音）"
+},
+{
+"id": 8,
+"it": "tenore lirico",
+"zh": "抒情男高音"
+},
+{
+"id": 9,
+"it": "tenore lirico-spinto",
+"zh": "抒情戏剧男高音"
+},
+{
+"id": 10,
+"it": "tenore drammatico",
+"zh": "戏剧男高音"
+},
+{
+"id": 11,
+"it": "baritono",
+"zh": "男中音"
+},
+{
+"id": 12,
+"it": "basso",
+"zh": "男低音"
+},
+{
+"id": 13,
+"it": "controtenore",
+"zh": "假声男高音（以假声演唱男高音声部）"
+},
+{
+"id": 14,
+"it": "basso profondo",
+"zh": "深沉男低音（极低音域）"
+},
+{
+"id": 15,
+"it": "basso buffo",
+"zh": "喜剧男低音（擅长快速滑稽唱段）"
+},
+{
+"id": 16,
+"it": "basso cantante",
+"zh": "歌唱男低音（音色优美、偏抒情）"
+},
+{
+"id": 17,
+"it": "baritono lirico",
+"zh": "抒情男中音"
+},
+{
+"id": 18,
+"it": "basso-baritono",
+"zh": "低男中音（介于男中音与男低音之间）"
+},
+{
+"id": 19,
+"it": "tessitura",
+"zh": "音域／最佳音区（乐曲主要活动音区）"
+},
+{
+"id": 20,
+"it": "mezza voce",
+"zh": "半声（轻声、半音量）"
+},
+{
+"id": 21,
+"it": "voce piena",
+"zh": "全声、饱满的声音"
+},
+{
+"id": 22,
+"it": "voce bianca",
+"zh": "白声（无共鸣、纯真音色的少年／未训练嗓音）"
+},
+{
+"id": 23,
+"it": "acuto",
+"zh": "高音的／高音区"
+},
+{
+"id": 24,
+"it": "grave",
+"zh": "低音的／低音区"
+},
+{
+"id": 25,
+"it": "registro",
+"zh": "声区（胸声／混声／头声等）"
+},
+{
+"id": 26,
+"it": "estensione",
+"zh": "音域跨度（声音可达范围）"
+},
+{
+"id": 27,
+"it": "vibrato",
+"zh": "颤音（自然的声波颤动）"
+},
+{
+"id": 28,
+"it": "timbro",
+"zh": "音色"
+},
+{
+"id": 29,
+"it": "squillo",
+"zh": "金属亮音（高频穿透力）"
+},
+{
+"id": 30,
+"it": "colore (vocale)",
+"zh": "声音色彩"
+},
+{
+"id": 31,
+"it": "appoggio",
+"zh": "气息支撑（横膈膜支撑）"
+},
+{
+"id": 32,
+"it": "messa di voce",
+"zh": "渐强渐弱长音（同一音上由弱到强再弱）"
+},
+{
+"id": 33,
+"it": "copertura",
+"zh": "掩盖／覆盖（高音区混入头声以圆润音色）"
+},
+{
+"id": 34,
+"it": "aggiustamento",
+"zh": "调整（换声区的声区平衡调整）"
+},
+{
+"id": 35,
+"it": "passaggio",
+"zh": "换声区（声区转换处）"
+},
+{
+"id": 36,
+"it": "collegamento",
+"zh": "连接（声区间平滑过渡）"
+},
+{
+"id": 37,
+"it": "steccare",
+"zh": "唱破／走音（破音）"
+},
+{
+"id": 38,
+"it": "portamento",
+"zh": "滑音／带音（乐句间声音连贯滑动）"
+},
+{
+"id": 39,
+"it": "attacco",
+"zh": "起音（音的起始发声）"
+},
+{
+"id": 40,
+"it": "filatura",
+"zh": "花腔连音（快速音阶的均匀跑动）"
+},
+{
+"id": 41,
+"it": "trillo",
+"zh": "颤音（装饰音，快速二音交替）"
+},
+{
+"id": 42,
+"it": "emissione",
+"zh": "发声（声音的发出方式）"
+},
+{
+"id": 43,
+"it": "marcato",
+"zh": "强调的、清晰的"
+},
+{
+"id": 44,
+"it": "diaframma",
+"zh": "横膈膜"
+},
+{
+"id": 45,
+"it": "corde vocali",
+"zh": "声带"
+},
+{
+"id": 46,
+"it": "glottide",
+"zh": "声门（声带间的开口）"
+},
+{
+"id": 47,
+"it": "palato duro",
+"zh": "硬腭"
+},
+{
+"id": 48,
+"it": "palato molle",
+"zh": "软腭"
+},
+{
+"id": 49,
+"it": "faringe",
+"zh": "咽"
+},
+{
+"id": 50,
+"it": "risonanza",
+"zh": "共鸣"
+},
+{
+"id": 51,
+"it": "cavità",
+"zh": "腔体（共鸣腔）"
+},
+{
+"id": 52,
+"it": "laringe",
+"zh": "喉"
+},
+{
+"id": 53,
+"it": "trachea",
+"zh": "气管"
+},
+{
+"id": 54,
+"it": "maschera",
+"zh": "面罩（面部共鸣区）"
+},
+{
+"id": 55,
+"it": "atto",
+"zh": "幕（歌剧分幕）"
+},
+{
+"id": 56,
+"it": "scena",
+"zh": "场／景"
+},
+{
+"id": 57,
+"it": "concerto",
+"zh": "音乐会"
+},
+{
+"id": 58,
+"it": "teatro",
+"zh": "剧院"
+},
+{
+"id": 59,
+"it": "palcoscenico",
+"zh": "舞台"
+},
+{
+"id": 60,
+"it": "platea",
+"zh": "池座／观众席"
+},
+{
+"id": 61,
+"it": "boccascena",
+"zh": "台口（舞台前开口）"
+},
+{
+"id": 62,
+"it": "sipario",
+"zh": "大幕（幕布）"
+},
+{
+"id": 63,
+"it": "sinfonia",
+"zh": "序曲"
+},
+{
+"id": 64,
+"it": "recitativo",
+"zh": "宣叙调"
+},
+{
+"id": 65,
+"it": "loggione",
+"zh": "顶层楼座"
+},
+{
+"id": 66,
+"it": "opera",
+"zh": "歌剧"
+},
+{
+"id": 67,
+"it": "oratorio",
+"zh": "清唱剧"
+},
+{
+"id": 68,
+"it": "cantata",
+"zh": "康塔塔"
+},
+{
+"id": 69,
+"it": "arioso",
+"zh": "咏叙调（介于宣叙与咏叹之间）"
+},
+{
+"id": 70,
+"it": "cavatina",
+"zh": "卡瓦蒂纳（短抒情咏叹调）"
+},
+{
+"id": 71,
+"it": "cabaletta",
+"zh": "卡巴莱塔（咏叹调后半的快速炫技段）"
+},
+{
+"id": 72,
+"it": "romanza",
+"zh": "艺术歌曲／浪漫曲"
+},
+{
+"id": 73,
+"it": "lied",
+"zh": "艺术歌曲（德奥传统）"
+},
+{
+"id": 74,
+"it": "madrigale",
+"zh": "牧歌（文艺复兴复调声乐）"
+},
+{
+"id": 75,
+"it": "aria",
+"zh": "咏叹调"
+},
+{
+"id": 76,
+"it": "duetto",
+"zh": "二重唱"
+},
+{
+"id": 77,
+"it": "melodramma",
+"zh": "正歌剧／音乐戏剧（意大利歌剧旧称）"
+},
+{
+"id": 78,
+"it": "maestro di canto",
+"zh": "声乐教师／声乐指导"
+},
+{
+"id": 79,
+"it": "maestro concertatore",
+"zh": "音乐指导（排练指挥／钢琴指导）"
+},
+{
+"id": 80,
+"it": "accompagnatore",
+"zh": "钢琴伴奏"
+},
+{
+"id": 81,
+"it": "prova",
+"zh": "排练"
+},
+{
+"id": 82,
+"it": "prova generale",
+"zh": "彩排（正式演出前总排）"
+},
+{
+"id": 83,
+"it": "coro",
+"zh": "合唱团"
+},
+{
+"id": 84,
+"it": "corista",
+"zh": "合唱团员"
+},
+{
+"id": 85,
+"it": "direttore d'orchestra",
+"zh": "指挥（管弦乐指挥）"
+},
+{
+"id": 86,
+"it": "regista",
+"zh": "导演（歌剧导演）"
+},
+{
+"id": 87,
+"it": "suggeritore",
+"zh": "提词员"
+},
+{
+"id": 88,
+"it": "maestro del coro",
+"zh": "合唱指挥"
+},
+{
+"id": 89,
+"it": "primo violino",
+"zh": "首席小提琴"
+},
+{
+"id": 90,
+"it": "fraseggio",
+"zh": "乐句处理（乐句的分句与表达）"
+},
+{
+"id": 91,
+"it": "agógica (agogica)",
+"zh": "速度表情（节奏的弹性处理）"
+},
+{
+"id": 92,
+"it": "rubato",
+"zh": "自由速度（抢拍与缓拍）"
+},
+{
+"id": 93,
+"it": "dinamica",
+"zh": "力度"
+},
+{
+"id": 94,
+"it": "legato",
+"zh": "连音（连贯平滑）"
+},
+{
+"id": 95,
+"it": "staccato",
+"zh": "断音（短促分离）"
+},
+{
+"id": 96,
+"it": "articolazione",
+"zh": "咬字／连断法（发声清晰度）"
+},
+{
+"id": 97,
+"it": "agilità",
+"zh": "灵活性（花腔技巧的敏捷）"
+},
+{
+"id": 98,
+"it": "tempo",
+"zh": "速度／拍子"
+},
+{
+"id": 99,
+"it": "cadenza",
+"zh": "华彩段（独奏／独唱炫技段）"
+},
+{
+"id": 100,
+"it": "In bocca al lupo!",
+"zh": "祝你好运！（演出前祝福）"
+},
+{
+"id": 101,
+"it": "bravo / bravi",
+"zh": "好！／棒！（对表演者喝彩）"
+},
+{
+"id": 102,
+"it": "da capo",
+"zh": "从头反复（回到开头）"
+},
+{
+"id": 103,
+"it": "bis",
+"zh": "安可（返场加演）"
+},
+{
+"id": 104,
+"it": "inchino",
+"zh": "谢幕（鞠躬致意）"
+},
+{
+"id": 105,
+"it": "Crepi!",
+"zh": "回应祝福（\"愿狼死掉\"）"
+},
+{
+"id": 106,
+"it": "buona fortuna",
+"zh": "祝好运（较通用）"
+},
+{
+"id": 107,
+"it": "buona prova",
+"zh": "祝排练顺利"
+},
+{
+"id": 108,
+"it": "silenzio in sala",
+"zh": "场内安静！（开演前提示）"
+},
+{
+"id": 109,
+"it": "via!",
+"zh": "开始！（指挥／提词起拍口令）"
+},
+{
+"id": 110,
+"it": "Teatro San Carlo",
+"zh": "圣卡洛剧院（那不勒斯）"
+},
+{
+"id": 111,
+"it": "Teatro alla Scala (La Scala)",
+"zh": "斯卡拉剧院（米兰）"
+},
+{
+"id": 112,
+"it": "Teatro La Fenice",
+"zh": "凤凰剧院（威尼斯）"
+},
+{
+"id": 113,
+"it": "Teatro Regio",
+"zh": "雷焦剧院（都灵）"
+},
+{
+"id": 114,
+"it": "Teatro Comunale",
+"zh": "市立剧院（博洛尼亚）"
+},
+{
+"id": 115,
+"it": "Teatro Massimo",
+"zh": "马西莫剧院（巴勒莫）"
+},
+{
+"id": 116,
+"it": "Arena di Verona",
+"zh": "维罗纳竞技场"
+},
+{
+"id": 117,
+"it": "Teatro dell'Opera di Roma",
+"zh": "罗马歌剧院"
+},
+{
+"id": 118,
+"it": "Teatro Carlo Felice",
+"zh": "卡洛·费利切剧院（热那亚）"
+},
+{
+"id": 119,
+"it": "Teatro Verdi",
+"zh": "威尔第剧院（的里雅斯特）"
+},
+{
+"id": 120,
+"it": "Teatro Grande",
+"zh": "大剧院（布雷西亚）"
+},
+{
+"id": 121,
+"it": "Teatro Sociale",
+"zh": "社交剧院（科莫）"
+},
+{
+"id": 122,
+"it": "Teatro Lirico",
+"zh": "抒情剧院（米兰）"
+},
+{
+"id": 123,
+"it": "Teatro Filarmonico",
+"zh": "爱乐剧院（维罗纳）"
+},
+{
+"id": 124,
+"it": "Teatro Ponchielli",
+"zh": "蓬基耶利剧院（克雷莫纳）"
+},
+{
+"id": 125,
+"it": "Teatro del Maggio Musicale Fiorentino",
+"zh": "佛罗伦萨五月音乐节剧院"
+},
+{
+"id": 126,
+"it": "soprano lirico",
+"zh": "抒情女高音"
+},
+{
+"id": 127,
+"it": "soprano drammatico",
+"zh": "戏剧女高音"
+},
+{
+"id": 128,
+"it": "soprano di coloratura",
+"zh": "花腔女高音"
+},
+{
+"id": 129,
+"it": "soprano spinto",
+"zh": "戏剧抒情女高音（推展女高）"
+},
+{
+"id": 130,
+"it": "mezzosoprano",
+"zh": "女中音"
+},
+{
+"id": 131,
+"it": "contralto",
+"zh": "女低音"
+},
+{
+"id": 132,
+"it": "tenore lirico",
+"zh": "抒情男高音"
+},
+{
+"id": 133,
+"it": "tenore di grazia (tenore leggero)",
+"zh": "优雅男高音（轻男高）"
+},
+{
+"id": 134,
+"it": "tenore drammatico",
+"zh": "戏剧男高音"
+},
+{
+"id": 135,
+"it": "baritono",
+"zh": "男中音"
+},
+{
+"id": 136,
+"it": "basso",
+"zh": "男低音"
+},
+{
+"id": 137,
+"it": "basso profondo",
+"zh": "深沉男低音"
+},
+{
+"id": 138,
+"it": "Giuseppe Verdi",
+"zh": "朱塞佩·威尔第"
+},
+{
+"id": 139,
+"it": "Giacomo Puccini",
+"zh": "贾科莫·普契尼"
+},
+{
+"id": 140,
+"it": "Gioachino Rossini",
+"zh": "焦阿基诺·罗西尼"
+},
+{
+"id": 141,
+"it": "Vincenzo Bellini",
+"zh": "温琴佐·贝利尼"
+},
+{
+"id": 142,
+"it": "Gaetano Donizetti",
+"zh": "加埃塔诺·多尼采蒂"
+},
+{
+"id": 143,
+"it": "Claudio Monteverdi",
+"zh": "克劳迪奥·蒙特威尔第"
+},
+{
+"id": 144,
+"it": "Pietro Mascagni",
+"zh": "彼得罗·马斯卡尼"
+},
+{
+"id": 145,
+"it": "Ruggero Leoncavallo",
+"zh": "鲁杰罗·莱翁卡瓦洛"
+},
+{
+"id": 146,
+"it": "Wolfgang Amadeus Mozart",
+"zh": "沃尔夫冈·阿玛多伊斯·莫扎特"
+},
+{
+"id": 147,
+"it": "Amilcare Ponchielli",
+"zh": "阿米尔卡雷·蓬基耶利"
+},
+{
+"id": 148,
+"it": "Arrigo Boito",
+"zh": "阿里戈·博伊托"
+},
+{
+"id": 149,
+"it": "Francesco Cilea",
+"zh": "弗朗切斯科·奇莱亚"
+},
+{
+"id": 150,
+"it": "Umberto Giordano",
+"zh": "翁贝托·焦尔达诺"
+},
+{
+"id": 151,
+"it": "Alfredo Catalani",
+"zh": "阿尔弗雷多·卡塔拉尼"
+},
+{
+"id": 152,
+"it": "Luigi Cherubini",
+"zh": "路易吉·凯鲁比尼"
+},
+{
+"id": 153,
+"it": "Ottorino Respighi",
+"zh": "奥托里诺·雷斯皮基"
+},
+{
+"id": 154,
+"it": "Fai un respiro profondo.",
+"zh": "深呼吸。"
+},
+{
+"id": 155,
+"it": "Sostieni il fiato.",
+"zh": "支撑住气息。"
+},
+{
+"id": 156,
+"it": "Rilassa la mascella.",
+"zh": "放松下颌。"
+},
+{
+"id": 157,
+"it": "Canta con il fiato.",
+"zh": "用气息歌唱。"
+},
+{
+"id": 158,
+"it": "Ascolta la risonanza.",
+"zh": "听你的共鸣。"
+},
+{
+"id": 159,
+"it": "Allunga il fiato.",
+"zh": "把气息拉长。"
+},
+{
+"id": 160,
+"it": "Appoggia la voce.",
+"zh": "把声音“放”在气息上。"
+},
+{
+"id": 161,
+"it": "Non stringere la gola.",
+"zh": "别夹紧喉咙。"
+},
+{
+"id": 162,
+"it": "respiro",
+"zh": "呼吸"
+},
+{
+"id": 163,
+"it": "fiato",
+"zh": "气息"
+},
+{
+"id": 164,
+"it": "mascella",
+"zh": "下颌"
+},
+{
+"id": 165,
+"it": "risonanza",
+"zh": "共鸣"
+},
+{
+"id": 166,
+"it": "appoggio",
+"zh": "支撑"
+},
+{
+"id": 167,
+"it": "arcata",
+"zh": "连音/乐句（拱形）"
+},
+{
+"id": 168,
+"it": "raucedine",
+"zh": "声嘶 / 嗓音沙哑"
+},
+{
+"id": 169,
+"it": "afonia",
+"zh": "失声 / 嗓音丧失"
+},
+{
+"id": 170,
+"it": "noduli vocali",
+"zh": "声带结节"
+},
+{
+"id": 171,
+"it": "laríngite",
+"zh": "喉炎"
+},
+{
+"id": 172,
+"it": "riscaldamento vocale",
+"zh": "嗓音热身 / 开声"
+},
+{
+"id": 173,
+"it": "idratazione",
+"zh": "补水 / 水合"
+},
+{
+"id": 174,
+"it": "polipi vocali",
+"zh": "声带息肉"
+},
+{
+"id": 175,
+"it": "reflusso gastroesofageo",
+"zh": "胃食管反流"
+},
+{
+"id": 176,
+"it": "silenzio vocale",
+"zh": "嗓音休息 / 噤声"
+},
+{
+"id": 177,
+"it": "vaporizzazione",
+"zh": "蒸汽吸入"
+},
+{
+"id": 178,
+"it": "tecnica vocale corretta",
+"zh": "正确发声技术"
+},
+{
+"id": 179,
+"it": "corda vocale",
+"zh": "声带"
+},
+{
+"id": 180,
+"it": "concorso",
+"zh": "比赛 / 声乐比赛"
+},
+{
+"id": 181,
+"it": "audizione",
+"zh": "试镜 / 试唱"
+},
+{
+"id": 182,
+"it": "cachet",
+"zh": "酬金 / 演出费"
+},
+{
+"id": 183,
+"it": "contratto",
+"zh": "合同"
+},
+{
+"id": 184,
+"it": "agente",
+"zh": "经纪人"
+},
+{
+"id": 185,
+"it": "stagione",
+"zh": "演出季"
+},
+{
+"id": 186,
+"it": "debutto",
+"zh": "首演 / 首秀"
+},
+{
+"id": 187,
+"it": "répétition",
+"zh": "排练"
+},
+{
+"id": 188,
+"it": "prova",
+"zh": "排练 / 彩排"
+},
+{
+"id": 189,
+"it": "direttore d'orchestra",
+"zh": "指挥"
+},
+{
+"id": 190,
+"it": "maestro",
+"zh": "老师 / 大师 / 指挥"
+},
+{
+"id": 191,
+"it": "impresario",
+"zh": "剧院经理 / 演出经纪人"
+},
+{
+"id": 192,
+"it": "cartellone",
+"zh": "剧目单 / 演出安排"
+},
+{
+"id": 193,
+"it": "tournée",
+"zh": "巡演"
+},
+{
+"id": 194,
+"it": "recital",
+"zh": "独唱音乐会"
+},
+{
+"id": 195,
+"it": "scrittura",
+"zh": "签约 / 聘用"
+},
+{
+"id": 196,
+"it": "adagio",
+"zh": "柔板（缓慢）"
+},
+{
+"id": 197,
+"it": "andante",
+"zh": "行板"
+},
+{
+"id": 198,
+"it": "allegro",
+"zh": "快板"
+},
+{
+"id": 199,
+"it": "presto",
+"zh": "急板"
+},
+{
+"id": 200,
+"it": "largo",
+"zh": "广板"
+},
+{
+"id": 201,
+"it": "moderato",
+"zh": "中板"
+},
+{
+"id": 202,
+"it": "vivace",
+"zh": "活泼地（快而生动）"
+},
+{
+"id": 203,
+"it": "crescendo",
+"zh": "渐强"
+},
+{
+"id": 204,
+"it": "diminuendo (decrescendo)",
+"zh": "渐弱"
+},
+{
+"id": 205,
+"it": "ritardando (rit.)",
+"zh": "渐慢"
+},
+{
+"id": 206,
+"it": "accelerando (accel.)",
+"zh": "渐快"
+},
+{
+"id": 207,
+"it": "forte (f)",
+"zh": "强"
+},
+{
+"id": 208,
+"it": "piano (p)",
+"zh": "弱"
+},
+{
+"id": 209,
+"it": "mezzo forte (mf)",
+"zh": "中强"
+},
+{
+"id": 210,
+"it": "mezzo piano (mp)",
+"zh": "中弱"
+},
+{
+"id": 211,
+"it": "fortissimo (ff)",
+"zh": "很强"
+},
+{
+"id": 212,
+"it": "pianissimo (pp)",
+"zh": "很弱"
+},
+{
+"id": 213,
+"it": "legato",
+"zh": "连音（连贯）"
+},
+{
+"id": 214,
+"it": "staccato",
+"zh": "断音（短促）"
+},
+{
+"id": 215,
+"it": "da capo",
+"zh": "从头反复"
+},
+{
+"id": 216,
+"it": "rubato",
+"zh": "自由速度（伸缩处理）"
+},
+{
+"id": 217,
+"it": "a tempo",
+"zh": "恢复原速"
+},
+{
+"id": 218,
+"it": "speme",
+"zh": "希望"
+},
+{
+"id": 219,
+"it": "alma",
+"zh": "灵魂"
+},
+{
+"id": 220,
+"it": "cor / core",
+"zh": "心"
+},
+{
+"id": 221,
+"it": "ciglio",
+"zh": "眼/睫毛（诗体\"眼\"）"
+},
+{
+"id": 222,
+"it": "sembiante",
+"zh": "面容/容貌"
+},
+{
+"id": 223,
+"it": "guisa",
+"zh": "方式/样子"
+},
+{
+"id": 224,
+"it": "brando",
+"zh": "剑"
+},
+{
+"id": 225,
+"it": "aura",
+"zh": "微风/气息"
+},
+{
+"id": 226,
+"it": "vago",
+"zh": "美丽的/迷人的"
+},
+{
+"id": 227,
+"it": "erto",
+"zh": "陡峭的"
+},
+{
+"id": 228,
+"it": "lume",
+"zh": "光"
+},
+{
+"id": 229,
+"it": "duol",
+"zh": "痛苦"
+},
+{
+"id": 230,
+"it": "soglio",
+"zh": "王座/宝座"
+},
+{
+"id": 231,
+"it": "pianto",
+"zh": "哭泣/泪"
+},
+{
+"id": 232,
+"it": "doglia",
+"zh": "痛苦/忧伤"
+},
+{
+"id": 233,
+"it": "aita",
+"zh": "帮助"
+},
+{
+"id": 234,
+"it": "stral",
+"zh": "箭/爱神之箭"
+},
+{
+"id": 235,
+"it": "sen",
+"zh": "胸怀/胸"
+},
+{
+"id": 236,
+"it": "ciel",
+"zh": "天/天空"
+},
+{
+"id": 237,
+"it": "beltà",
+"zh": "美"
+},
+{
+"id": 238,
+"it": "asil",
+"zh": "庇护所"
+},
+{
+"id": 239,
+"it": "or",
+"zh": "此刻/现在"
+},
+{
+"id": 240,
+"it": "omai",
+"zh": "如今/终将"
+},
+{
+"id": 241,
+"it": "alfin",
+"zh": "终于"
+},
+{
+"id": 242,
+"it": "allor",
+"zh": "那时"
+},
+{
+"id": 243,
+"it": "talor",
+"zh": "有时"
+},
+{
+"id": 244,
+"it": "sovente",
+"zh": "常常"
+},
+{
+"id": 245,
+"it": "poscia",
+"zh": "之后/然后"
+},
+{
+"id": 246,
+"it": "onde",
+"zh": "因此/从…而来"
+},
+{
+"id": 247,
+"it": "ove",
+"zh": "何处/那里"
+},
+{
+"id": 248,
+"it": "dacché",
+"zh": "自从"
+},
+{
+"id": 249,
+"it": "già",
+"zh": "已经/曾经"
+},
+{
+"id": 250,
+"it": "anzi",
+"zh": "反而/在…之前"
+},
+{
+"id": 251,
+"it": "tosto",
+"zh": "立刻/很快"
+},
+{
+"id": 252,
+"it": "quinci",
+"zh": "由此"
+},
+{
+"id": 253,
+"it": "quindi",
+"zh": "由此/因此"
+},
+{
+"id": 254,
+"it": "sì",
+"zh": "如此"
+},
+{
+"id": 255,
+"it": "pur",
+"zh": "然而/仍"
+},
+{
+"id": 256,
+"it": "mai",
+"zh": "永不（与 non）/ ever"
+},
+{
+"id": 257,
+"it": "giammai",
+"zh": "永不"
+},
+{
+"id": 258,
+"it": "ognor",
+"zh": "永远/每时"
+},
+{
+"id": 259,
+"it": "ancor",
+"zh": "仍/还"
+},
+{
+"id": 260,
+"it": "mentr'",
+"zh": "当…时"
+},
+{
+"id": 261,
+"it": "Ahi!",
+"zh": "唉！/啊！"
+},
+{
+"id": 262,
+"it": "Ohimè!",
+"zh": "呜呼！/我好苦！"
+},
+{
+"id": 263,
+"it": "Oimè!",
+"zh": "呜呼！"
+},
+{
+"id": 264,
+"it": "Deh!",
+"zh": "求求！/我恳求"
+},
+{
+"id": 265,
+"it": "Oh Dio!",
+"zh": "天哪！/噢上帝！"
+},
+{
+"id": 266,
+"it": "Misero me!",
+"zh": "可怜的我！"
+},
+{
+"id": 267,
+"it": "Lasso me!",
+"zh": "苦命的我！（男）"
+},
+{
+"id": 268,
+"it": "Lassa me!",
+"zh": "苦命的我！（女）"
+},
+{
+"id": 269,
+"it": "Guai!",
+"zh": "祸哉！"
+},
+{
+"id": 270,
+"it": "Numi!",
+"zh": "众神啊！"
+},
+{
+"id": 271,
+"it": "Stelle!",
+"zh": "星辰啊！"
+},
+{
+"id": 272,
+"it": "Cieli!",
+"zh": "苍天啊！"
+},
+{
+"id": 273,
+"it": "meco",
+"zh": "与我"
+},
+{
+"id": 274,
+"it": "teco",
+"zh": "与你"
+},
+{
+"id": 275,
+"it": "seco",
+"zh": "与他/她"
+},
+{
+"id": 276,
+"it": "nosco",
+"zh": "与我们"
+},
+{
+"id": 277,
+"it": "vosco",
+"zh": "与你们"
+},
+{
+"id": 278,
+"it": "vo'",
+"zh": "我要"
+},
+{
+"id": 279,
+"it": "deggio",
+"zh": "我必须"
+},
+{
+"id": 280,
+"it": "fia",
+"zh": "将是"
+},
+{
+"id": 281,
+"it": "fieno",
+"zh": "他们将是"
+},
+{
+"id": 282,
+"it": "saria",
+"zh": "将会是"
+},
+{
+"id": 283,
+"it": "fe'",
+"zh": "他做了"
+},
+{
+"id": 284,
+"it": "diè",
+"zh": "他给了"
+},
+{
+"id": 285,
+"it": "riede",
+"zh": "他返回"
+},
+{
+"id": 286,
+"it": "veggio",
+"zh": "我看见"
+},
+{
+"id": 287,
+"it": "ferì",
+"zh": "他刺伤"
+},
+{
+"id": 288,
+"it": "piacque",
+"zh": "他令…喜悦"
+},
+{
+"id": 289,
+"it": "tacque",
+"zh": "他沉默"
+},
+{
+"id": 290,
+"it": "porse",
+"zh": "他伸出"
+},
+{
+"id": 291,
+"it": "surse",
+"zh": "他起身"
+},
+{
+"id": 292,
+"it": "colse",
+"zh": "他采下"
+},
+{
+"id": 293,
+"it": "sparve",
+"zh": "他消失"
+},
+{
+"id": 294,
+"it": "vissi",
+"zh": "我活过"
+},
+{
+"id": 295,
+"it": "more",
+"zh": "他死去"
+},
+{
+"id": 296,
+"it": "puote",
+"zh": "他能"
+},
+{
+"id": 297,
+"it": "'l",
+"zh": "那（阳单）"
+},
+{
+"id": 298,
+"it": "'n",
+"zh": "在…"
+},
+{
+"id": 299,
+"it": "'nnanzi",
+"zh": "在…之前"
+},
+{
+"id": 300,
+"it": "ch'",
+"zh": "那/因为"
+},
+{
+"id": 301,
+"it": "com'",
+"zh": "如同"
+},
+{
+"id": 302,
+"it": "m'",
+"zh": "我（宾）"
+},
+{
+"id": 303,
+"it": "t'",
+"zh": "你（宾）"
+},
+{
+"id": 304,
+"it": "s'",
+"zh": "自己/若"
+},
+{
+"id": 305,
+"it": "i'",
+"zh": "我"
+},
+{
+"id": 306,
+"it": "bell'",
+"zh": "美丽的"
+},
+{
+"id": 307,
+"it": "cor",
+"zh": "心"
+},
+{
+"id": 308,
+"it": "alma",
+"zh": "灵魂"
+},
+{
+"id": 309,
+"it": "amor",
+"zh": "爱"
+},
+{
+"id": 310,
+"it": "fior",
+"zh": "花"
+},
+{
+"id": 311,
+"it": "ciel",
+"zh": "天"
+},
+{
+"id": 312,
+"it": "suol",
+"zh": "大地"
+},
+{
+"id": 313,
+"it": "sen",
+"zh": "胸怀"
+},
+{
+"id": 314,
+"it": "vel",
+"zh": "面纱"
+},
+{
+"id": 315,
+"it": "stral",
+"zh": "箭"
+},
+{
+"id": 316,
+"it": "asil",
+"zh": "庇护"
+},
+{
+"id": 317,
+"it": "fral",
+"zh": "脆弱的"
+},
+{
+"id": 318,
+"it": "duol",
+"zh": "痛苦"
+},
+{
+"id": 319,
+"it": "beltà",
+"zh": "美"
+},
+{
+"id": 320,
+"it": "spirto",
+"zh": "精神"
+},
+{
+"id": 321,
+"it": "amar",
+"zh": "爱（不定式）"
+},
+{
+"id": 322,
+"it": "baciar",
+"zh": "亲吻（不定式）"
+},
+{
+"id": 323,
+"it": "Sì",
+"zh": "如此（= così）"
+},
+{
+"id": 324,
+"it": "è 'l",
+"zh": "是那（'l = il）"
+},
+{
+"id": 325,
+"it": "tormento",
+"zh": "折磨/苦痛"
+},
+{
+"id": 326,
+"it": "ch'in",
+"zh": "在…之中（ch'=che）"
+},
+{
+"id": 327,
+"it": "seno",
+"zh": "胸怀/心"
+},
+{
+"id": 328,
+"it": "ch'io",
+"zh": "我（ch'=que）"
+},
+{
+"id": 329,
+"it": "cruda",
+"zh": "残酷的（= crudele）"
+},
+{
+"id": 330,
+"it": "beltà",
+"zh": "美（= bellezza）"
+},
+{
+"id": 331,
+"it": "Ecco",
+"zh": "看/瞧"
+},
+{
+"id": 332,
+"it": "ridente",
+"zh": "微笑的（= che ride）"
+},
+{
+"id": 333,
+"it": "aurora",
+"zh": "黎明（= alba）"
+},
+{
+"id": 334,
+"it": "ancora",
+"zh": "仍"
+},
+{
+"id": 335,
+"it": "così",
+"zh": "这样"
+},
+{
+"id": 336,
+"it": "speme",
+"zh": "希望（= speranza）"
+},
+{
+"id": 337,
+"it": "bell'idol mio",
+"zh": "我的心上人"
+},
+{
+"id": 338,
+"it": "stral",
+"zh": "爱神之箭（= strale）"
+},
+{
+"id": 339,
+"it": "ferì",
+"zh": "刺伤（ferire 远过去）"
+},
+{
+"id": 340,
+"it": "già veggo",
+"zh": "我已看见（veggio=vedo）"
+},
+{
+"id": 341,
+"it": "sembiante",
+"zh": "面容（= volto）"
+},
+{
+"id": 342,
+"it": "Alma",
+"zh": "灵魂（= anima）"
+},
+{
+"id": 343,
+"it": "core",
+"zh": "心（= cuore）"
+},
+{
+"id": 344,
+"it": "spirto",
+"zh": "精神（= spirito）"
+},
+{
+"id": 345,
+"it": "dell'alma",
+"zh": "灵魂的（= dell'anima）"
+},
+{
+"id": 346,
+"it": "t'adorerò",
+"zh": "我将爱慕你（t'=ti）"
+},
+{
+"id": 347,
+"it": "bel",
+"zh": "美丽的（= bello）"
+},
+{
+"id": 348,
+"it": "labbro",
+"zh": "唇（诗体单数，常= labbra）"
+},
+{
+"id": 349,
+"it": "baciar",
+"zh": "亲吻（= baciare）"
+},
+{
+"id": 350,
+"it": "potrò",
+"zh": "我将能"
+},
+{
+"id": 351,
+"it": "Ombra",
+"zh": "荫影"
+},
+{
+"id": 352,
+"it": "mai",
+"zh": "从不（与 fu 配合）"
+},
+{
+"id": 353,
+"it": "fu",
+"zh": "曾是（essere 远过去）"
+},
+{
+"id": 354,
+"it": "di vegetabile",
+"zh": "植物的"
+},
+{
+"id": 355,
+"it": "cara ed amabile",
+"zh": "可爱可亲"
+},
+{
+"id": 356,
+"it": "soave",
+"zh": "温柔的"
+},
+{
+"id": 357,
+"it": "Camerata Fiorentina",
+"zh": "佛罗伦萨卡梅拉塔（文人雅集社团）"
+},
+{
+"id": 358,
+"it": "recitar cantando",
+"zh": "似说似唱／吟唱式宣叙（早期歌剧美学纲领）"
+},
+{
+"id": 359,
+"it": "monodia",
+"zh": "单声部独唱（带通奏低音伴奏）"
+},
+{
+"id": 360,
+"it": "dramma per musica",
+"zh": "（以音乐承载的）戏剧，即歌剧旧称"
+},
+{
+"id": 361,
+"it": "opera seria",
+"zh": "正歌剧"
+},
+{
+"id": 362,
+"it": "opera buffa",
+"zh": "喜歌剧"
+},
+{
+"id": 363,
+"it": "basso continuo",
+"zh": "通奏低音／数字低音"
+},
+{
+"id": 364,
+"it": "aria da capo",
+"zh": "返始咏叹调（ABA 三段体）"
+},
+{
+"id": 365,
+"it": "recitativo secco",
+"zh": "清宣叙调（仅通奏低音伴奏）"
+},
+{
+"id": 366,
+"it": "recitativo accompagnato",
+"zh": "伴奏宣叙调（乐队伴奏）"
+},
+{
+"id": 367,
+"it": "stretta",
+"zh": "（终曲）加速收束段"
+},
+{
+"id": 368,
+"it": "bel canto",
+"zh": "美声唱法"
+},
+{
+"id": 369,
+"it": "verismo",
+"zh": "真实主义（歌剧流派）"
+},
+{
+"id": 370,
+"it": "castrato",
+"zh": "阉人歌手"
+},
+{
+"id": 371,
+"it": "virtuoso",
+"zh": "技艺超群的（演奏/演唱家）"
+},
+{
+"id": 372,
+"it": "prima donna",
+"zh": "头牌女伶／女主角"
+},
+{
+"id": 373,
+"it": "sprezzatura",
+"zh": "举重若轻的优雅（歌唱中的从容）"
+},
+{
+"id": 374,
+"it": "chiaroscuro",
+"zh": "明暗法／嗓音明暗对比"
+},
+{
+"id": 375,
+"it": "libretto",
+"zh": "歌剧脚本"
+},
+{
+"id": 376,
+"it": "librettista",
+"zh": "脚本作家"
+},
+{
+"id": 377,
+"it": "Concorso Internazionale Voci Verdiane «Città di Busseto»",
+"zh": "布斯塞托\"威尔第之声\"国际声乐比赛"
+},
+{
+"id": 378,
+"it": "Concorso Puccini",
+"zh": "普契尼声乐比赛（托雷德尔拉戈）"
+},
+{
+"id": 379,
+"it": "Concorso «Toti Dal Monte»",
+"zh": "\"托蒂·达尔蒙泰\"国际声乐比赛（特雷维索）"
+},
+{
+"id": 380,
+"it": "Operalia",
+"zh": "多明戈世界歌剧大赛"
+},
+{
+"id": 381,
+"it": "concorso",
+"zh": "比赛／竞赛"
+},
+{
+"id": 382,
+"it": "bando",
+"zh": "比赛章程／征选公告"
+},
+{
+"id": 383,
+"it": "semifinale",
+"zh": "半决赛"
+},
+{
+"id": 384,
+"it": "finale",
+"zh": "决赛"
+},
+{
+"id": 385,
+"it": "giuria",
+"zh": "评委会"
+},
+{
+"id": 386,
+"it": "premio",
+"zh": "奖项／奖金"
+},
+{
+"id": 387,
+"it": "borsa di studio",
+"zh": "奖学金（进修资助）"
+},
+{
+"id": 388,
+"it": "prova",
+"zh": "试唱／选拔轮次"
+},
+{
+"id": 389,
+"it": "vincitore",
+"zh": "获奖者／优胜者"
+},
+{
+"id": 390,
+"it": "ex aequo",
+"zh": "并列（同分）"
+},
+{
+"id": 391,
+"it": "diploma",
+"zh": "获奖文凭／证书"
+},
+{
+"id": 392,
+"it": "Rossini Opera Festival (ROF)",
+"zh": "罗西尼歌剧节（佩萨罗）"
+},
+{
+"id": 393,
+"it": "Puccini Festival",
+"zh": "普契尼音乐节（托雷德尔拉戈）"
+},
+{
+"id": 394,
+"it": "Festival della Valle d'Itria",
+"zh": "伊特里亚山谷音乐节（马丁纳弗兰卡）"
+},
+{
+"id": 395,
+"it": "Maggio Musicale Fiorentino",
+"zh": "佛罗伦萨五月音乐节"
+},
+{
+"id": 396,
+"it": "Festival Verdi (Verdi Festival)",
+"zh": "威尔第音乐节（帕尔马）"
+},
+{
+"id": 397,
+"it": "Festival Donizettiano",
+"zh": "多尼采蒂音乐节（贝加莫）"
+},
+{
+"id": 398,
+"it": "Festival dei Due Mondi",
+"zh": "两个世界音乐节（斯波莱托）"
+},
+{
+"id": 399,
+"it": "Arena di Verona",
+"zh": "维罗纳露天竞技场歌剧季"
+},
+{
+"id": 400,
+"it": "Ravenna Festival",
+"zh": "拉文纳音乐节"
+},
+{
+"id": 401,
+"it": "Teatro alla Scala (La Scala)",
+"zh": "斯卡拉歌剧院（米兰）"
+},
+{
+"id": 402,
+"it": "Teatro di San Carlo",
+"zh": "圣卡洛歌剧院（那不勒斯）"
+},
+{
+"id": 403,
+"it": "Teatro La Fenice",
+"zh": "凤凰歌剧院（威尼斯）"
+},
+{
+"id": 404,
+"it": "Teatro dell'Opera di Roma",
+"zh": "罗马歌剧院"
+},
+{
+"id": 405,
+"it": "Teatro Regio di Parma",
+"zh": "帕尔马皇家歌剧院"
+},
+{
+"id": 406,
+"it": "Metropolitan Opera",
+"zh": "大都会歌剧院（纽约）"
+},
+{
+"id": 407,
+"it": "Opéra Bastille",
+"zh": "巴士底歌剧院（巴黎）"
+},
+{
+"id": 408,
+"it": "Palais Garnier (Opéra Garnier)",
+"zh": "加尼叶歌剧院（巴黎）"
+},
+{
+"id": 409,
+"it": "Wiener Staatsoper",
+"zh": "维也纳国家歌剧院"
+},
+{
+"id": 410,
+"it": "Royal Opera House (Covent Garden)",
+"zh": "皇家歌剧院（伦敦科文特花园）"
+},
+{
+"id": 411,
+"it": "Bayerische Staatsoper",
+"zh": "巴伐利亚国家歌剧院（慕尼黑）"
+},
+{
+"id": 412,
+"it": "Teatro Real",
+"zh": "皇家剧院（马德里）"
+},
+{
+"id": 413,
+"it": "Bolshoi Theatre",
+"zh": "大剧院（莫斯科）"
+},
+{
+"id": 414,
+"it": "melodramma",
+"zh": "歌剧（意大利对 opera 的统称，亦指正歌剧）"
+},
+{
+"id": 415,
+"it": "farsa",
+"zh": "滑稽短剧／单幕笑剧"
+},
+{
+"id": 416,
+"it": "intermezzo",
+"zh": "幕间剧"
+},
+{
+"id": 417,
+"it": "dramma giocoso",
+"zh": "谐趣正剧（喜中带正）"
+},
+{
+"id": 418,
+"it": "pasticcio",
+"zh": "集成剧（拼凑多位作者曲目）"
+},
+{
+"id": 419,
+"it": "azione sacra / oratorio",
+"zh": "圣剧／清唱剧"
+},
+{
+"id": 420,
+"it": "cantata",
+"zh": "康塔塔"
+},
+{
+"id": 421,
+"it": "operetta",
+"zh": "轻歌剧／小歌剧"
+},
+{
+"id": 422,
+"it": "Singspiel",
+"zh": "歌唱剧（德式带对白歌剧）"
+},
+{
+"id": 423,
+"it": "opéra-comique",
+"zh": "法国喜歌剧（带对白）"
+},
+{
+"id": 424,
+"it": "zarzuela",
+"zh": "西班牙萨苏埃拉（民族轻歌剧）"
+},
+{
+"id": 425,
+"it": "regia",
+"zh": "导演（艺术）／舞台调度"
+},
+{
+"id": 426,
+"it": "regista",
+"zh": "导演"
+},
+{
+"id": 427,
+"it": "scenografia (scene)",
+"zh": "舞台美术／布景"
+},
+{
+"id": 428,
+"it": "scenografo",
+"zh": "舞台美术设计／布景师"
+},
+{
+"id": 429,
+"it": "costumi",
+"zh": "服装（总称）"
+},
+{
+"id": 430,
+"it": "costumista",
+"zh": "服装设计师"
+},
+{
+"id": 431,
+"it": "luci",
+"zh": "灯光"
+},
+{
+"id": 432,
+"it": "direttore delle luci / light designer",
+"zh": "灯光设计师"
+},
+{
+"id": 433,
+"it": "allestimento",
+"zh": "制作／舞台呈现"
+},
+{
+"id": 434,
+"it": "messa in scena",
+"zh": "上演／排演呈现"
+},
+{
+"id": 435,
+"it": "sopratitoli (surtitoli)",
+"zh": "字幕（幕上字幕）"
+},
+{
+"id": 436,
+"it": "proiezioni",
+"zh": "投影（多媒体）"
+},
+{
+"id": 437,
+"it": "prove",
+"zh": "排练"
+},
+{
+"id": 438,
+"it": "coproduzione",
+"zh": "联合制作"
+},
+{
+"id": 439,
+"it": "voce calda",
+"zh": "温暖的嗓音"
+},
+{
+"id": 440,
+"it": "voce fredda",
+"zh": "冷感的嗓音"
+},
+{
+"id": 441,
+"it": "voce chiara",
+"zh": "清亮的嗓音"
+},
+{
+"id": 442,
+"it": "voce scura",
+"zh": "暗色的嗓音"
+},
+{
+"id": 443,
+"it": "voce bianca",
+"zh": "白的／纯净的嗓音（童声/轻飘）"
+},
+{
+"id": 444,
+"it": "timbro",
+"zh": "音色"
+},
+{
+"id": 445,
+"it": "sonorità",
+"zh": "共鸣／音响质感"
+},
+{
+"id": 446,
+"it": "proiezione",
+"zh": "声音投射／穿透力"
+},
+{
+"id": 447,
+"it": "estensione",
+"zh": "音域"
+},
+{
+"id": 448,
+"it": "omogeneità",
+"zh": "声区统一"
+},
+{
+"id": 449,
+"it": "squillo",
+"zh": "（金属般的）亮芯／穿透音"
+},
+{
+"id": 450,
+"it": "Dov'è la biglietteria?",
+"zh": "售票处在哪里？"
+},
+{
+"id": 451,
+"it": "Posso avere il programma di sala?",
+"zh": "我能要一份节目单吗？"
+},
+{
+"id": 452,
+"it": "Dov'è il mio posto?",
+"zh": "我的座位在哪里？"
+},
+{
+"id": 453,
+"it": "A che ora si alza il sipario? / A che ora finisce?",
+"zh": "幕布几点升起？／几点结束？"
+},
+{
+"id": 454,
+"it": "Lo spettacolo è commovente.",
+"zh": "演出很感人。"
+},
+{
+"id": 455,
+"it": "Che voce straordinaria!",
+"zh": "多么非凡的嗓音！"
+},
+{
+"id": 456,
+"it": "Bravi! / Bis!",
+"zh": "太棒了！／安可！"
+},
+{
+"id": 457,
+"it": "Dove si trova la toilette?",
+"zh": "洗手间在哪里？"
+},
+{
+"id": 458,
+"it": "诗行",
+"zh": "重音位置"
+},
+{
+"id": 459,
+"it": "endecasillabo",
+"zh": "第 10 音节（最重要，地位≈英文五步抑扬格）"
+},
+{
+"id": 460,
+"it": "decasillabo",
+"zh": "第 9"
+},
+{
+"id": 461,
+"it": "novenario",
+"zh": "第 8"
+},
+{
+"id": 462,
+"it": "ottonario",
+"zh": "第 7"
+},
+{
+"id": 463,
+"it": "settenario",
+"zh": "第 6（歌剧中最常用之一）"
+},
+{
+"id": 464,
+"it": "senario",
+"zh": "第 5"
+},
+{
+"id": 465,
+"it": "quinario",
+"zh": "第 4"
+},
+{
+"id": 466,
+"it": "quadrisillabo",
+"zh": "第 3"
+},
+{
+"id": 467,
+"it": "类型",
+"zh": "例"
+},
+{
+"id": 468,
+"it": "verso piano",
+"zh": "amore"
+},
+{
+"id": 469,
+"it": "verso tronco",
+"zh": "felicità"
+},
+{
+"id": 470,
+"it": "verso sdrucciolo",
+"zh": "tacito"
+},
+{
+"id": 471,
+"it": "现象",
+"zh": "说明"
+},
+{
+"id": 472,
+"it": "sinalefe",
+"zh": "前词末元音 + 后词首元音 → 算 1 音节"
+},
+{
+"id": 473,
+"it": "dialefe",
+"zh": "两个相邻元音各算 1 音节"
+},
+{
+"id": 474,
+"it": "sineresi",
+"zh": "词内 gioia 算 1 音节"
+},
+{
+"id": 475,
+"it": "dieresi",
+"zh": "同词拆成 2 音节"
+},
+{
+"id": 476,
+"it": "elisione",
+"zh": "l'aura（不单独成音节）"
+},
+{
+"id": 477,
+"it": "troncamento",
+"zh": "cor（←cuore）"
+},
+{
+"id": 478,
+"it": "aferesi",
+"zh": "'l（←il）"
+},
+{
+"id": 479,
+"it": "sincope",
+"zh": "—"
+},
+{
+"id": 480,
+"it": "apocope",
+"zh": "—"
+},
+{
+"id": 481,
+"it": "epitesi",
+"zh": "—"
+},
+{
+"id": 482,
+"it": "韵式",
+"zh": "中文"
+},
+{
+"id": 483,
+"it": "rima baciata",
+"zh": "邻韵"
+},
+{
+"id": 484,
+"it": "rima alternata",
+"zh": "交韵"
+},
+{
+"id": 485,
+"it": "rima incrociata",
+"zh": "抱韵"
+},
+{
+"id": 486,
+"it": "rima incatenata (terza rima)",
+"zh": "连锁韵（但丁）"
+},
+{
+"id": 487,
+"it": "rima interna",
+"zh": "行内韵"
+},
+{
+"id": 488,
+"it": "rima ricca",
+"zh": "富韵（多音节全同）"
+},
+{
+"id": 489,
+"it": "assonanza",
+"zh": "元音谐（元音同、辅音异）"
+},
+{
+"id": 490,
+"it": "consonanza",
+"zh": "辅音谐"
+},
+{
+"id": 491,
+"it": "rima identica / equivoca",
+"zh": "同词韵 / 同形异义韵"
+},
+{
+"id": 492,
+"it": "诗体",
+"zh": "中文"
+},
+{
+"id": 493,
+"it": "sonetto",
+"zh": "十四行诗"
+},
+{
+"id": 494,
+"it": "terzina / terza rima",
+"zh": "三行体"
+},
+{
+"id": 495,
+"it": "quartina",
+"zh": "四行体"
+},
+{
+"id": 496,
+"it": "sestina",
+"zh": "六行体"
+},
+{
+"id": 497,
+"it": "ottava rima",
+"zh": "八行体"
+},
+{
+"id": 498,
+"it": "canzone",
+"zh": "歌"
+},
+{
+"id": 499,
+"it": "ballata",
+"zh": "舞歌"
+},
+{
+"id": 500,
+"it": "madrigale",
+"zh": "牧歌"
+},
+{
+"id": 501,
+"it": "ode / inno / elegia",
+"zh": "颂诗 / 颂歌 / 挽歌"
+},
+{
+"id": 502,
+"it": "修辞",
+"zh": "说明"
+},
+{
+"id": 503,
+"it": "allitterazione",
+"zh": "重复相同音素，如 il tuo trillo sembra la brina"
+},
+{
+"id": 504,
+"it": "assonanza / consonanza",
+"zh": "—"
+},
+{
+"id": 505,
+"it": "onomatopea",
+"zh": "—"
+},
+{
+"id": 506,
+"it": "paronomasia",
+"zh": "音近义远"
+},
+{
+"id": 507,
+"it": "修辞",
+"zh": "例句"
+},
+{
+"id": 508,
+"it": "metafora",
+"zh": "il tempo è un ladro"
+},
+{
+"id": 509,
+"it": "similitudine",
+"zh": "come… così"
+},
+{
+"id": 510,
+"it": "metonimia",
+"zh": "作者代作品"
+},
+{
+"id": 511,
+"it": "sineddoche",
+"zh": "部分代整体（le vele 代船）"
+},
+{
+"id": 512,
+"it": "iperbole",
+"zh": "—"
+},
+{
+"id": 513,
+"it": "litote",
+"zh": "以否定表肯定"
+},
+{
+"id": 514,
+"it": "ossimoro",
+"zh": "bianca notte（白色的夜）"
+},
+{
+"id": 515,
+"it": "antitesi",
+"zh": "—"
+},
+{
+"id": 516,
+"it": "sinestesia",
+"zh": "il sapore del successo"
+},
+{
+"id": 517,
+"it": "personificazione / prosopopea",
+"zh": "—"
+},
+{
+"id": 518,
+"it": "allegoria",
+"zh": "言此意彼"
+},
+{
+"id": 519,
+"it": "perifrasi / eufemismo",
+"zh": "—"
+},
+{
+"id": 520,
+"it": "adynaton",
+"zh": "—"
+},
+{
+"id": 521,
+"it": "修辞",
+"zh": "说明"
+},
+{
+"id": 522,
+"it": "anafora",
+"zh": "句首反复，如但丁 Per me si va… ×3"
+},
+{
+"id": 523,
+"it": "epifora",
+"zh": "—"
+},
+{
+"id": 524,
+"it": "anadiplosi",
+"zh": "前句尾接后句首"
+},
+{
+"id": 525,
+"it": "chiasmo",
+"zh": "AB–BA"
+},
+{
+"id": 526,
+"it": "anastrofe",
+"zh": "调换词序"
+},
+{
+"id": 527,
+"it": "iperbato",
+"zh": "插入成分隔开"
+},
+{
+"id": 528,
+"it": "poliptoto",
+"zh": "如 sallo / sanno"
+},
+{
+"id": 529,
+"it": "enumerazione",
+"zh": "—"
+},
+{
+"id": 530,
+"it": "climax",
+"zh": "—"
+},
+{
+"id": 531,
+"it": "apostrofe",
+"zh": "对不在场者/物说话（歌剧高频！）"
+},
+{
+"id": 532,
+"it": "interrogazione retorica",
+"zh": "—"
+},
+{
+"id": 533,
+"it": "reticenza",
+"zh": "—"
+},
+{
+"id": 534,
+"it": "Maestro, oggi facciamo il vocalizzo prima?",
+"zh": "老师，我们今天先练母音练声吗？"
+},
+{
+"id": 535,
+"it": "Sì, comincia. Attenzione al registro di testa.",
+"zh": "好，开始。注意头声。"
+},
+{
+"id": 536,
+"it": "Il fiato non riesco a sostenerlo.",
+"zh": "我撑不住气息。"
+},
+{
+"id": 537,
+"it": "Respira meglio. Non stringere la gola.",
+"zh": "好好呼吸，不要挤喉咙。"
+},
+{
+"id": 538,
+"it": "Posso provare l'aria adesso?",
+"zh": "我现在可以试唱咏叹调了吗？"
+},
+{
+"id": 539,
+"it": "Vai.",
+"zh": "开始吧。"
+},
+{
+"id": 540,
+"it": "Maestro, iniziamo con i vocalizzi?",
+"zh": "老师，我们先做练声练习吗？"
+},
+{
+"id": 541,
+"it": "Sì. Partiamo dal registro di petto, poi saliamo al registro di testa.",
+"zh": "好。先从胸声开始，之后过渡到头声。"
+},
+{
+"id": 542,
+"it": "Quando salgo le note alte, sento che stringo la gola.",
+"zh": "唱高音的时候，我感觉喉咙会收紧。"
+},
+{
+"id": 543,
+"it": "Non premere la laringe. Mantieni il sostegno del fiato, la gola deve rimanere aperta.",
+"zh": "不要挤压喉位。保持气息支撑，喉咙要保持打开。"
+},
+{
+"id": 544,
+"it": "Ho capito. Provo di nuovo.",
+"zh": "明白了，我再试一次。"
+},
+{
+"id": 545,
+"it": "Meglio! La maschera funziona di più adesso.",
+"zh": "好多了！现在面罩共鸣出来更多了。"
+},
+{
+"id": 546,
+"it": "Maestro, prima di cantare vorrei scaldare la voce.",
+"zh": "老师，唱之前我想先热一下嗓。"
+},
+{
+"id": 547,
+"it": "Certo. Fai dei vocalizzi piano, senza sforzo.",
+"zh": "当然，做点轻声练声，别用力。"
+},
+{
+"id": 548,
+"it": "Devo respirare con il diaframma?",
+"zh": "我应该用横膈膜呼吸吗？"
+},
+{
+"id": 549,
+"it": "Sì, senti l'addome che si espande. Il fiato parte da lì.",
+"zh": "对，感受腹部扩张，气从那儿起。"
+},
+{
+"id": 550,
+"it": "Buongiorno Maestro. Oggi voglio provare questa aria.",
+"zh": "早上好老师，今天我想试唱这首咏叹调。"
+},
+{
+"id": 551,
+"it": "Va bene. Comincia pure.",
+"zh": "好的，开始吧。"
+},
+{
+"id": 552,
+"it": "Scusi, posso ripetere la parte finale? Ho problemi con il fiato.",
+"zh": "不好意思，我可以重唱结尾这段吗？我的气息不太稳。"
+},
+{
+"id": 553,
+"it": "Certo. Apri di più la gola, e usa la maschera. L'intonazione è un po' bassa.",
+"zh": "当然。再多打开喉咙，用上面罩共鸣，音准有点偏低。"
+},
+{
+"id": 554,
+"it": "Capito. Potrebbe suonare lo spartito per me ancora una volta?",
+"zh": "明白了。您可以帮我再伴奏一遍乐谱吗？"
+},
+{
+"id": 555,
+"it": "Sì. Non cantare troppo forte, mantieni il sostegno del fiato.",
+"zh": "可以。不要唱得太强，保持气息支撑。"
+},
+{
+"id": 556,
+"it": "Va bene. Questa aria fa parte del mio repertorio per l'esame di canto.",
+"zh": "好的。这首咏叹调是我声乐考试的保留曲目。"
+},
+{
+"id": 557,
+"it": "Bene, devi esercitarti di più sui vocalizzi ogni giorno.",
+"zh": "很好，你需要每天多加练习母音练声曲。"
+},
+{
+"id": 558,
+"it": "D'accordo, Maestro. Grazie mille!",
+"zh": "好的老师，非常感谢！"
+},
+{
+"id": 559,
+"it": "Maestro, in questa frase non riesco a fare il legato.",
+"zh": "老师，这一句我连不起来（legato）。"
+},
+{
+"id": 560,
+"it": "Canta sul fiato, lega le vocali senza interruzione.",
+"zh": "在气上唱，把元音不断开地连起来。"
+},
+{
+"id": 561,
+"it": "La \"a\" finale suona troppo chiusa.",
+"zh": "结尾的 a 听起来太挤了。"
+},
+{
+"id": 562,
+"it": "Apri bene la mascella, pensa a un suono più aperto.",
+"zh": "张开下巴，想象更开放的音。"
+},
+{
+"id": 563,
+"it": "Questa frase mi crea difficoltà nella dinamica. Non so come fare il diminuendo.",
+"zh": "这一句的强弱处理对我很难，我不知道怎么做渐弱。"
+},
+{
+"id": 564,
+"it": "Il diminuendo non significa togliere tutto il fiato. Riduci il volume lentamente, ma tieni il sostegno.",
+"zh": "渐弱不是把气息全部卸掉。慢慢减小音量，但维持支撑。"
+},
+{
+"id": 565,
+"it": "E l'accento su questa parola?",
+"zh": "那这个单词上的重音怎么处理？"
+},
+{
+"id": 566,
+"it": "Metti l'accento sulla sillaba principale, non forzare la voce.",
+"zh": "重音落在核心音节上，不要硬顶嗓子。"
+},
+{
+"id": 567,
+"it": "Potrebbe suonare questa frase due volte per farmela ascoltare?",
+"zh": "您能弹这两句伴奏，让我听一遍吗？"
+},
+{
+"id": 568,
+"it": "Va bene.",
+"zh": "好的。"
+},
+{
+"id": 569,
+"it": "Qui serve un crescendo verso la nota alta?",
+"zh": "这里往高音需要渐强吗？"
+},
+{
+"id": 570,
+"it": "Sì, ma naturale, senza spingere. L'agógica nasce dal testo.",
+"zh": "要，但自然，别推。节奏弹性（agógica）来自歌词。"
+},
+{
+"id": 571,
+"it": "Posso prendere un piccolo rubato?",
+"zh": "我可以稍微散一点板（rubato）吗？"
+},
+{
+"id": 572,
+"it": "Sì, ma poi ritorna al tempo.",
+"zh": "可以，但之后要回原速。"
+},
+{
+"id": 573,
+"it": "Vorrei cambiare una parte del mio repertorio per l'esame di canto.",
+"zh": "我想更换一部分声乐考试的保留曲目。"
+},
+{
+"id": 574,
+"it": "Quale aria vuoi aggiungere?",
+"zh": "你想加哪一首咏叹调？"
+},
+{
+"id": 575,
+"it": "Una canzone da camera. Ho paura che la mia tessitura non sia adatta.",
+"zh": "一首艺术歌曲。我担心我的音域不太合适。"
+},
+{
+"id": 576,
+"it": "Proviamola insieme. Controlliamo l'intonazione e la musicalità.",
+"zh": "我们一起试唱看看，检查音准和音乐表现力。"
+},
+{
+"id": 577,
+"it": "Quanto tempo devo dedicare ogni giorno all'esercizio?",
+"zh": "我每天应该花多长时间练习？"
+},
+{
+"id": 578,
+"it": "Un'ora e mezza è sufficiente, non stancare troppo la voce.",
+"zh": "一个半小时足够，不要让嗓音过度疲劳。"
+},
+{
+"id": 579,
+"it": "Maestro, per il saggio di fine semestre, quale aria consigli?",
+"zh": "老师，期末汇报演出，您推荐哪首作品？"
+},
+{
+"id": 580,
+"it": "Scegli quella che ti senti più sicuro. Devi anche lavorare sull'interpretazione.",
+"zh": "选你最有把握的那首。你还要打磨作品的演绎。"
+},
+{
+"id": 581,
+"it": "L'accompagnatore pianista ha già visto lo spartito?",
+"zh": "钢琴伴奏已经看过乐谱了吗？"
+},
+{
+"id": 582,
+"it": "Sì, avrete una prova insieme la prossima settimana.",
+"zh": "看过了，下周你们会有一次合排。"
+},
+{
+"id": 583,
+"it": "Per l'esame di ammissione al conservatorio devo portare il mio pianista accompagnatore?",
+"zh": "考音乐学院入学考试，我需要自己带钢琴伴奏吗？"
+},
+{
+"id": 584,
+"it": "Sì, è obbligatorio presentarsi con il proprio accompagnatore.",
+"zh": "对，必须自带伴奏。"
+},
+{
+"id": 585,
+"it": "Qual è il programma d'esame?",
+"zh": "考试曲目要求是什么？"
+},
+{
+"id": 586,
+"it": "Di solito: scale e arpeggi su due ottave, uno studio (Concone o Panofka), un'aria del Seicento, un'aria d'opera con recitativo, e una camera o romanza.",
+"zh": "通常：两 octaves 音阶与琶音、一首练习曲（Concone 或 Panofka）、一首十七世纪咏叹调、一首带宣叙调的歌剧咏叹调、一首室内乐或艺术歌曲。"
+},
+{
+"id": 587,
+"it": "Serve il certificato di lingua italiana?",
+"zh": "需要意大利语语言证书吗？"
+},
+{
+"id": 588,
+"it": "Sì, generalmente B1 o B2 (CELI o CILS); alcuni conservatori fanno anche un test linguistico.",
+"zh": "一般需要 B1 或 B2（CELI 或 CILS），部分学院还有语言测试。"
+},
+{
+"id": 589,
+"it": "La commissione può interrompere l'esecuzione?",
+"zh": "评委可以打断演唱吗？"
+},
+{
+"id": 590,
+"it": "Sì, la giuria può fermarti in qualsiasi momento. Non preoccuparti.",
+"zh": "可以，评委会随时叫停，别紧张。"
+},
+{
+"id": 591,
+"it": "Sono nervoso per il colloquio con la commissione.",
+"zh": "我对评委会的面试很紧张。"
+},
+{
+"id": 592,
+"it": "Parla della tua motivazione artistica, dei tuoi studi, del perché hai scelto questo repertorio.",
+"zh": "谈谈你的艺术动机、学习经历，以及为什么选这些曲目。"
+},
+{
+"id": 593,
+"it": "Devo preparare qualcosa per la teoria?",
+"zh": "理论部分我要准备什么吗？"
+},
+{
+"id": 594,
+"it": "Sì, solfeggio, storia della musica e percezione ritmica fanno parte dell'esame.",
+"zh": "视唱练耳、音乐史和节奏感知都在考试范围内。"
+},
+{
+"id": 595,
+"it": "Buongiorno, sono qui per l'audizione per il ruolo di...",
+"zh": "您好，我是来试镜……角色的。"
+},
+{
+"id": 596,
+"it": "Piacere. Canti un'aria a sua scelta, con accompagnamento.",
+"zh": "幸会。请自选一首咏叹调，带伴奏。"
+},
+{
+"id": 597,
+"it": "Devo cantare a memoria?",
+"zh": "要背谱吗？"
+},
+{
+"id": 598,
+"it": "Sì, e prepari anche il recitativo se c'è.",
+"zh": "要，如果有宣叙调也准备好。"
+},
+{
+"id": 599,
+"it": "Il direttore vuole sentire il registro acuto?",
+"zh": "指挥想听一下高声区吗？"
+},
+{
+"id": 600,
+"it": "Sì, faccia la cadenza e mostri il colore della voce.",
+"zh": "对，唱华彩，展示一下声音的色彩。"
+},
+{
+"id": 601,
+"it": "Va bene, attacco dal respiro.",
+"zh": "好的，从呼吸起音。"
+},
+{
+"id": 602,
+"it": "Bravo! L'italiano è chiaro, la dizione ottima.",
+"zh": "好样的！意大利语清楚，咬字极佳。"
+},
+{
+"id": 603,
+"it": "Mi sono iscritto al concorso \"Voci Verdiane\".",
+"zh": "我报名了\"威尔第之声\"比赛。"
+},
+{
+"id": 604,
+"it": "Hai inviato il bando e il programma?",
+"zh": "你提交报名表和曲目单了吗？"
+},
+{
+"id": 605,
+"it": "Sì, ho preparato due arie per la semifinale.",
+"zh": "交了，半决赛准备了两首咏叹调。"
+},
+{
+"id": 606,
+"it": "La giuria valuta anche la recitazione del testo.",
+"zh": "评委会也看歌词的演绎。"
+},
+{
+"id": 607,
+"it": "Passo alla finale domani!",
+"zh": "我进决赛了（明天）！"
+},
+{
+"id": 608,
+"it": "Complimenti. Mantieni la calma e il sostegno del fiato.",
+"zh": "恭喜。保持冷静和气息支撑。"
+},
+{
+"id": 609,
+"it": "Il primo premio va a...",
+"zh": "一等奖颁给……"
+},
+{
+"id": 610,
+"it": "Grazie alla giuria e al mio maestro.",
+"zh": "感谢评委会和我的老师。"
+},
+{
+"id": 611,
+"it": "Maestro, nella masterclass di oggi canto \"Pace, pace, mio Dio\".",
+"zh": "老师，今天大师班我唱《赐我安宁》。"
+},
+{
+"id": 612,
+"it": "Bene. Stai attenta all'emissione, non farti prendere dall'emozione.",
+"zh": "好。注意发声，别被情绪带跑。"
+},
+{
+"id": 613,
+"it": "Devo cambiare il colore della voce qui?",
+"zh": "这里我要换个音色吗？"
+},
+{
+"id": 614,
+"it": "Sì, il silenzio prima dell'attacco è già parte dell'interpretazione.",
+"zh": "对，起音前的安静本身就是演绎的一部分。"
+},
+{
+"id": 615,
+"it": "(al pubblico) Grazie per l'ascolto.",
+"zh": "（对观众）谢谢聆听。"
+},
+{
+"id": 616,
+"it": "Grazie, Maestro, per la lezione.",
+"zh": "谢谢老师授课。"
+},
+{
+"id": 617,
+"it": "Entriamo in studio per la registrazione del CD.",
+"zh": "我们进棚录 CD。"
+},
+{
+"id": 618,
+"it": "Mettiti comodo davanti al microfono, a un palmo di distanza.",
+"zh": "在话筒前放松站好，距离一掌宽。"
+},
+{
+"id": 619,
+"it": "Facciamo un take di prova?",
+"zh": "先试录一条吗？"
+},
+{
+"id": 620,
+"it": "Sì. La voce è un po' coperta, apri di più.",
+"zh": "对。声音有点闷，再打开点。"
+},
+{
+"id": 621,
+"it": "Dopo la registrazione c'è il mixaggio e la masterizzazione.",
+"zh": "录完还有混音和母带处理。"
+},
+{
+"id": 622,
+"it": "Ascoltiamo il playback?",
+"zh": "我们听回放吗？"
+},
+{
+"id": 623,
+"it": "Sì, controlliamo l'intonazione e il bilancio.",
+"zh": "听，检查音准和平衡。"
+},
+{
+"id": 624,
+"it": "Il vibrato nella seconda strofa mi sembra irregolare.",
+"zh": "第二段里的颤音我觉得不太稳。"
+},
+{
+"id": 625,
+"it": "Possiamo rifare quel passaggio domani.",
+"zh": "那段我们明天可以重录。"
+},
+{
+"id": 626,
+"it": "Oggi prova con l'orchestra?",
+"zh": "今天和乐队合排？"
+},
+{
+"id": 627,
+"it": "Sì, attenzione ai cue del direttore.",
+"zh": "对，注意指挥的提示。"
+},
+{
+"id": 628,
+"it": "Quando devo entrare dopo il recitativo?",
+"zh": "宣叙调之后我什么时候进？"
+},
+{
+"id": 629,
+"it": "Alla battuta 47, dopo il respiro.",
+"zh": "第 47 小节，换气后进。"
+},
+{
+"id": 630,
+"it": "La regia vuole un movimento sulla parola \"morte\".",
+"zh": "导演要在 \"morte\" 这个词上做动作。"
+},
+{
+"id": 631,
+"it": "Sì, guarda il pubblico, non la buca.",
+"zh": "对，看观众，别看乐池。"
+},
+{
+"id": 632,
+"it": "D'accordo. E i sopratitoli ci sono?",
+"zh": "好的。有字幕吗？"
+},
+{
+"id": 633,
+"it": "Sì, compaiono sopra il boccascena.",
+"zh": "有，出现在台口上方。"
+},
+{
+"id": 634,
+"it": "Sono nel camerino, mancano venti minuti.",
+"zh": "我在化妆间，还有二十分钟。"
+},
+{
+"id": 635,
+"it": "Hai fatto il riscaldamento vocale?",
+"zh": "你做了嗓音热身吗？"
+},
+{
+"id": 636,
+"it": "Sì, vocalizzi leggeri.",
+"zh": "做了，轻声练声。"
+},
+{
+"id": 637,
+"it": "Il costume va bene?",
+"zh": "戏服合身吗？"
+},
+{
+"id": 638,
+"it": "Sì, grazie. Sono pronto per l'inchino.",
+"zh": "合身，谢谢。准备好谢幕了。"
+},
+{
+"id": 639,
+"it": "In bocca al lupo!",
+"zh": "祝好运！"
+},
+{
+"id": 640,
+"it": "Crepi!",
+"zh": "借您吉言！（标准回应，不能说 grazie）"
+},
+{
+"id": 641,
+"it": "Dottore, ho la voce rauca da una settimana.",
+"zh": "医生，我嗓音嘶哑一周了。"
+},
+{
+"id": 642,
+"it": "Ha fatto sforzo o urlato?",
+"zh": "您用力喊过或吼过吗？"
+},
+{
+"id": 643,
+"it": "No, ma ho cantato tre sere di fila.",
+"zh": "没，但我连续唱了三晚。"
+},
+{
+"id": 644,
+"it": "Possibile reflusso. Vediamo le corde vocali.",
+"zh": "可能是返流。我们看一下声带。"
+},
+{
+"id": 645,
+"it": "Ha noduli?",
+"zh": "有结节吗？"
+},
+{
+"id": 646,
+"it": "No, solo infiammazione. Riposo vocale due giorni.",
+"zh": "没有，只是发炎。禁声两天。"
+},
+{
+"id": 647,
+"it": "Devo cambiare l'igiene vocale?",
+"zh": "我要改善用嗓卫生吗？"
+},
+{
+"id": 648,
+"it": "Sì: idratazione, niente latte né caffè prima di cantare, respiro basso.",
+"zh": "对：多喝水、唱前别喝牛奶咖啡、低位呼吸。"
+},
+{
+"id": 649,
+"it": "La voce si stanca velocemente.",
+"zh": "嗓音很容易疲惫。"
+},
+{
+"id": 650,
+"it": "Ho la gola secca.",
+"zh": "我喉咙发干。"
+},
+{
+"id": 651,
+"it": "Questa nota è troppo alta per me.",
+"zh": "这个音对我来说太高。"
+},
+{
+"id": 652,
+"it": "Il ritmo è complicato.",
+"zh": "节奏比较复杂。"
+},
+{
+"id": 653,
+"it": "Faccio troppa pressione con la lingua.",
+"zh": "我的舌头太用力了。"
+},
+{
+"id": 654,
+"it": "Mi manca il fiato alla fine della frase.",
+"zh": "乐句结尾气息不够。"
+},
+{
+"id": 655,
+"it": "La dinamica è troppo forte / troppo piano.",
+"zh": "强弱力度太强 / 太弱。"
+},
+{
+"id": 656,
+"it": "Devo lavorare sulla musicalità.",
+"zh": "我需要打磨音乐感。"
+},
+{
+"id": 657,
+"it": "Ho perso l'attacco della nota.",
+"zh": "我起音没抓住。"
+},
+{
+"id": 658,
+"it": "Il vibrato è irregolare.",
+"zh": "颤音不稳。"
+},
+{
+"id": 659,
+"it": "Sento il suono che esce dal naso.",
+"zh": "声音从鼻子出来（鼻音重）。"
+},
+{
+"id": 660,
+"it": "Non trovo la posizione della voce.",
+"zh": "我找不到声音的位置。"
+},
+{
+"id": 661,
+"it": "Sento un nodo in gola.",
+"zh": "我感觉喉咙发紧（有疙瘩感）。"
+},
+{
+"id": 662,
+"it": "La respirazione non è regolare.",
+"zh": "呼吸不均匀。"
+}
+]

@@ -1,0 +1,11 @@
+OK  meta loaded: 2 grupos / 46 secs :: {"g":2,"f":46}
+OK  TOC renders 2 grupos :: grupos=2
+OK  first sec (术语) renders rows with audio paths :: rows=18 first=soprano leggero
+OK  dialogue sec renders turns with role badges :: turns=39 role=学生
+OK  search finds 'soprano' :: results=8
+OK  search click navigates to sec :: title=声部细分
+OK  player starts without throwing :: label=第 1/18 条 · 意语
+OK  study mode flashcard opens :: cards=1
+
+=== ERRORS ===
+none

@@ -1,0 +1,45 @@
+{
+  "steps": [
+    {
+      "name": "meta loaded: 2 grupos / 46 secs",
+      "ok": true,
+      "detail": "{\"g\":2,\"f\":46}"
+    },
+    {
+      "name": "TOC renders 2 grupos",
+      "ok": true,
+      "detail": "grupos=2"
+    },
+    {
+      "name": "first sec (术语) renders rows with audio paths",
+      "ok": true,
+      "detail": "rows=18 first=soprano leggero"
+    },
+    {
+      "name": "dialogue sec renders turns with role badges",
+      "ok": true,
+      "detail": "turns=39 role=学生"
+    },
+    {
+      "name": "search finds 'soprano'",
+      "ok": true,
+      "detail": "results=8"
+    },
+    {
+      "name": "search click navigates to sec",
+      "ok": true,
+      "detail": "title=声部细分"
+    },
+    {
+      "name": "player starts without throwing",
+      "ok": true,
+      "detail": "label=第 1/18 条 · 意语"
+    },
+    {
+      "name": "study mode flashcard opens",
+      "ok": true,
+      "detail": "cards=1"
+    }
+  ],
+  "errors": []
+}
