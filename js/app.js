@@ -1,4 +1,4 @@
-/* ===== 意大利语声乐属于与对话 ===== */
+/* ===== 意大利语声乐术语与对话 ===== */
 (function () {
   "use strict";
 
@@ -135,7 +135,7 @@
       var gr = META.grupos[state.g];
       var key = pm.gid + "-" + sm.no, isDone = !!state.done[key];
       var h = '<div class="crumb">' + esc(gr.name) + ' › Parte ' + pm.no
-        + ' <b>' + esc(pm.name) + '</b> · Sección ' + sm.no + '</div>'
+        + ' <b>' + esc(pm.name) + '</b> · Sezione ' + sm.no + '</div>'
         + '<h1 class="sec-title">' + esc(sm.name) + '</h1>'
         + '<div class="sec-meta">'
         + (sec.type === "terms"

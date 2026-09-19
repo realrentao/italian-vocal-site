@@ -1,4 +1,4 @@
-/* ===== 意大利语声乐属于与对话 ===== */
+/* ===== 意大利语声乐术语与对话 ===== */
 :root{
   --red:#9E1B32; --red-d:#7A1426; --gold:#B8893B; --gold-l:#F7EEDD;
   --bg:#FBF7F1; --card:#FFFFFF; --line:#ECE2D4;
@@ -294,7 +294,7 @@ kbd{background:var(--bg);border:1px solid var(--line);border-bottom-width:2px;bo
   padding:36px 26px;box-shadow:var(--shadow);text-align:center;cursor:pointer;user-select:none}
 .card-face.front .cf-es{font-size:32px;font-weight:700;word-break:break-word;line-height:1.4}
 .card-face.front .cf-ipa{font-size:16px;color:var(--tx3);font-style:italic;margin-top:8px}
-.cf-spk{margin-top:16px;font-size:14px;color:var(--red);border:1px solid var(--line);border-radius:20px;
+.cf-spk{display:block;margin:16px auto 0;width:fit-content;font-size:14px;color:var(--red);border:1px solid var(--line);border-radius:20px;
   padding:7px 18px;background:var(--bg);cursor:pointer}
 .cf-hint{margin-top:18px;font-size:12px;color:var(--tx3)}
 .card-face.back .cf-zh{font-size:24px;font-weight:600;color:var(--red);word-break:break-word}
