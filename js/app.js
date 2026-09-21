@@ -211,6 +211,7 @@
       + '<button class="mini-play" data-playblock="' + kind + '">▶ 连播本组</button></div>';
     sec.w.forEach(function (it, i) {
       var id = uid(gid, sno, kind, i);
+      var works = it[9] || [];
       h += '<div class="row composer-row" id="' + id + '"><span class="idx">' + (i + 1) + '</span>'
         + '<div class="body">'
         + '<div class="line-es">'
@@ -218,17 +219,20 @@
         + (it[1] ? '<span class="pos">' + esc(it[1]) + '</span>' : '')
         + '</div>'
         + '<div class="zh" data-a="' + AUDIO + it[6] + '">' + esc(it[2]) + '</div>'
-        + '<div class="work-block">'
-        + '<span class="work-lbl">代表作</span>'
-        + '<span class="work-it" data-a="' + AUDIO + it[8] + '">' + esc(it[3]) + '</span>'
-        + (it[7] ? '<div class="work-zh">' + esc(it[7]) + '</div>' : '')
-        + '</div>'
+        + '<div class="work-list"><span class="work-lbl">代表作</span>';
+      works.forEach(function (w) {
+        h += '<span class="work-item">'
+          + '<span class="work-it" data-a="' + AUDIO + w.aIt + '">' + esc(w.it) + '</span>'
+          + (w.zh ? '<span class="work-zh">' + esc(w.zh) + '</span>' : '')
+          + '<button class="spk work-spk" data-a="' + AUDIO + w.aIt + '" title="代表作意语发音">🎵</button>'
+          + '</span>';
+      });
+      h += '</div>'
         + (it[4] ? '<div class="note"><span class="note-lbl">备注</span>' + esc(it[4]) + '</div>' : '')
         + '</div>'
         + '<div class="spk-grp">'
         + '<button class="spk" data-a="' + AUDIO + it[5] + '" title="姓名意语发音">🔊</button>'
         + '<button class="spk" data-a="' + AUDIO + it[6] + '" title="中文名发音">汉</button>'
-        + '<button class="spk" data-a="' + AUDIO + it[8] + '" title="代表作意语发音">🎵</button>'
         + '</div></div>';
     });
     return h + '</div>';
@@ -315,8 +319,10 @@
     if (sec.type === "terms") {
       sec.w.forEach(function (it, i) {
         out.push({ id: uid(gid, sec.no, "w", i), kind: "w", es: it[0], zh: it[2], ae: it[5], az: it[6] });
-        if (sec.kind === "composer" && it[8]) {
-          out.push({ id: uid(gid, sec.no, "w", i) + "_work", kind: "w", es: it[3], zh: it[7], ae: it[8], az: "" });
+        if (sec.kind === "composer" && it[9] && it[9].length) {
+          it[9].forEach(function (w, wi) {
+            out.push({ id: uid(gid, sec.no, "w", i) + "_work" + wi, kind: "w", es: w.it, zh: w.zh, ae: w.aIt, az: "" });
+          });
         }
       });
     } else {
