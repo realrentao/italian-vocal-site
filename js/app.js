@@ -180,6 +180,7 @@
   function uid(gid, sno, kind, i) { return "u" + gid + "_" + sno + "_" + kind + "_" + i; }
 
   function blockTerms(sec) {
+    if (sec.kind === "composer") return blockComposer(sec);
     var gid = curParte().gid, sno = sec.no, kind = "w";
     var h = '<div class="block"><div class="block-hd"><h3>术语</h3>'
       + '<span class="tag">' + sec.w.length + '</span>'
@@ -198,6 +199,36 @@
         + '<div class="spk-grp">'
         + '<button class="spk" data-a="' + AUDIO + it[5] + '" title="意语发音">🔊</button>'
         + '<button class="spk" data-a="' + AUDIO + it[6] + '" title="中文发音">汉</button>'
+        + '</div></div>';
+    });
+    return h + '</div>';
+  }
+
+  function blockComposer(sec) {
+    var gid = curParte().gid, sno = sec.no, kind = "w";
+    var h = '<div class="block"><div class="block-hd"><h3>作曲家与代表作</h3>'
+      + '<span class="tag">' + sec.w.length + '</span>'
+      + '<button class="mini-play" data-playblock="' + kind + '">▶ 连播本组</button></div>';
+    sec.w.forEach(function (it, i) {
+      var id = uid(gid, sno, kind, i);
+      h += '<div class="row composer-row" id="' + id + '"><span class="idx">' + (i + 1) + '</span>'
+        + '<div class="body">'
+        + '<div class="line-es">'
+        + '<span class="es" data-a="' + AUDIO + it[5] + '">' + esc(it[0]) + '</span>'
+        + (it[1] ? '<span class="pos">' + esc(it[1]) + '</span>' : '')
+        + '</div>'
+        + '<div class="zh" data-a="' + AUDIO + it[6] + '">' + esc(it[2]) + '</div>'
+        + '<div class="work-block">'
+        + '<span class="work-lbl">代表作</span>'
+        + '<span class="work-it" data-a="' + AUDIO + it[8] + '">' + esc(it[3]) + '</span>'
+        + (it[7] ? '<div class="work-zh">' + esc(it[7]) + '</div>' : '')
+        + '</div>'
+        + (it[4] ? '<div class="note"><span class="note-lbl">备注</span>' + esc(it[4]) + '</div>' : '')
+        + '</div>'
+        + '<div class="spk-grp">'
+        + '<button class="spk" data-a="' + AUDIO + it[5] + '" title="姓名意语发音">🔊</button>'
+        + '<button class="spk" data-a="' + AUDIO + it[6] + '" title="中文名发音">汉</button>'
+        + '<button class="spk" data-a="' + AUDIO + it[8] + '" title="代表作意语发音">🎵</button>'
         + '</div></div>';
     });
     return h + '</div>';
@@ -284,6 +315,9 @@
     if (sec.type === "terms") {
       sec.w.forEach(function (it, i) {
         out.push({ id: uid(gid, sec.no, "w", i), kind: "w", es: it[0], zh: it[2], ae: it[5], az: it[6] });
+        if (sec.kind === "composer" && it[8]) {
+          out.push({ id: uid(gid, sec.no, "w", i) + "_work", kind: "w", es: it[3], zh: it[7], ae: it[8], az: "" });
+        }
       });
     } else {
       sec.d.forEach(function (t, i) {
