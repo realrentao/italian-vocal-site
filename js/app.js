@@ -21,7 +21,7 @@
     META.grupos.forEach(function (gr, gi) {
       gr.partes.forEach(function (pt, pi) {
         pt.secs.forEach(function (s) {
-          FLAT.push({ g: gi, p: pi, gid: pt.gid, no: s.no, name: s.name, type: s.type });
+          FLAT.push({ g: gi, p: pi, gid: pt.gid, no: s.no, name: s.name, type: s.type, gname: gr.name });
         });
       });
     });
@@ -192,7 +192,7 @@
         + '<span class="es" data-a="' + AUDIO + it[5] + '">' + esc(it[0]) + '</span>'
         + (it[1] ? '<span class="pos">' + esc(it[1]) + '</span>' : '')
         + '</div>'
-        + '<div class="zh" data-a="' + AUDIO + it[6] + '">' + esc(it[2]) + '</div>'
+        + (it[2] ? '<div class="zh" data-a="' + AUDIO + it[6] + '">' + esc(it[2]) + '</div>' : '')
         + (it[3] ? '<div class="ex"><span class="ex-lbl">例句</span>' + esc(it[3]) + '</div>' : '')
         + (it[4] ? '<div class="note"><span class="note-lbl">备注</span>' + esc(it[4]) + '</div>' : '')
         + '</div>'
@@ -321,7 +321,7 @@
         out.push({ id: uid(gid, sec.no, "w", i), kind: "w", es: it[0], zh: it[2], ae: it[5], az: it[6] });
         if (sec.kind === "composer" && it[9] && it[9].length) {
           it[9].forEach(function (w, wi) {
-            out.push({ id: uid(gid, sec.no, "w", i) + "_work" + wi, kind: "w", es: w.it, zh: w.zh, ae: w.aIt, az: "" });
+            out.push({ id: uid(gid, sec.no, "w", i) + "_work" + wi, kind: "w", es: w.it, zh: w.zh, ae: w.aIt, az: w.aZh || "" });
           });
         }
       });
@@ -376,7 +376,7 @@
     } else {
       U.forEach(function (u) { L.push({ src: AUDIO + u.az, uid: u.id, lang: "zh" }); });
     }
-    P.list = L; P.i = 0;
+    P.list = L.filter(function (x) { return x.src && x.src !== AUDIO; }); P.i = 0;
   }
 
   function buildUnits(scope, cb) { collect(scope, function (u) { P.units = u; if (cb) cb(); }); }
@@ -583,7 +583,7 @@
   function init() {
     buildFlat();
     loadLS();
-    el("bookTitle").textContent = META.title || "意大利语声乐属于与对话";
+    el("bookTitle").textContent = META.title || "意大利语声乐术语与对话";
     el("bookAuthor").textContent = META.author || "";
     renderToc();
 

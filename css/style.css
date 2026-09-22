@@ -150,7 +150,7 @@ body.hide-detail .ex,body.hide-detail .note{display:none}
 .row.composer-row .work-it{font-size:16px;font-weight:600;line-height:1.5;color:var(--tx);
   word-break:break-word;cursor:pointer}
 .row.composer-row .work-it:hover{color:var(--red)}
-.row.composer-row .work-zh{font-size:13.5px;color:var(--tx2);word-break:break-word}
+.row.composer-row .work-zh{font-size:13.5px;color:var(--tx2);word-break:break-word;cursor:pointer}
 .row.composer-row .work-spk{font-size:13px;line-height:1;padding:2px 7px;border:1px solid var(--line);
   border-radius:14px;background:var(--bg);color:var(--red);cursor:pointer;align-self:center}
 .row.composer-row .work-spk:hover{background:var(--red);color:#fff;border-color:var(--red)}
